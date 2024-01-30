@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+}
+
+button {
+  outline: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  background-color: #ced3df;
+  text-align: center;
+}
+
+/* https://www.cssmatic.com/box-shadow */
+.list {
+  width: 400px;
+  margin: auto;
+  background-color: #f1f0f7;
+  border-radius: 20px;
+  -webkit-box-shadow: 11px 10px 17px -7px rgba(122, 107, 122, 0.85);
+  -moz-box-shadow: 11px 10px 17px -7px rgba(122, 107, 122, 0.85);
+  box-shadow: 11px 10px 17px -7px rgba(122, 107, 122, 0.85);
+}
+
+.header {
+  height: 48px;
+  padding: 8px;
+  font-size: 24px;
+  background: rgb(186, 233, 233);
+  background: linear-gradient(
+    210deg,
+    rgba(186, 233, 233, 1) 0%,
+    rgba(240, 164, 246, 1) 100%
+  );
+  border-radius: 20px 20px 0 0;
+  color: #424142;
+}
+
+.items {
+  height: 500px;
+  overflow-y: auto;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 32px;
+}
+
+.item__delete {
+  font-size: 16px;
+  transition: all 130ms ease-in;
+}
+
+.item__delete:hover {
+  color: red;
+  transform: scale(1.1);
+}
+
+.item__divider {
+  width: 90%;
+  height: 2px;
+  background-color: lightgray;
+  margin: auto;
+}
+
+/* https://cssgradient.io/ */
+.footer {
+  background: rgb(186, 233, 233);
+  background: linear-gradient(
+    210deg,
+    rgba(186, 233, 233, 1) 0%,
+    rgba(240, 164, 246, 1) 100%
+  );
+  border-radius: 0 0 20px 20px;
+}
+
+.footer__input {
+  width: 100%;
+  height: 32px;
+  border: none;
+  outline: none;
+  font-size: 24px;
+  padding: 0 16px;
+}
+
+.footer__button {
+  width: 48px;
+  height: 48px;
+  font-size: 28px;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  margin: 4px 0;
+  transition: transform 200ms ease-in;
+}
+
+.footer__button:hover {
+  transform: scale(1.1);
+}

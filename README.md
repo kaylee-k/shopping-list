@@ -1,4 +1,4 @@
-# Shopping List Project
+# Shopping List 
 
 <img width="653" alt="shoppingList" src="https://github.com/kaylee-k/ShoppingList/assets/151891463/8310895d-a3f3-47a4-9544-c0ca5ad5f267">
 
@@ -18,3 +18,9 @@ Items in the shopping list can be deleted individually, providing users with the
 
 Scrolling Capability:
 The application ensures a seamless user experience by enabling scrolling when the content on the screen exceeds the visible area.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript

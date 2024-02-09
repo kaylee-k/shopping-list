@@ -1,6 +1,8 @@
-# Shopping List 
+# Shopping List 🛍️
 
 <img width="653" alt="shoppingList" src="https://github.com/kaylee-k/ShoppingList/assets/151891463/8310895d-a3f3-47a4-9544-c0ca5ad5f267">
+
+[Click ➡️ ] https://kaylee-k.github.io/ShoppingList/
 
 ## Description
 This project, named "shoppingList," is a simple web application built using HTML, CSS, and JavaScript. 
